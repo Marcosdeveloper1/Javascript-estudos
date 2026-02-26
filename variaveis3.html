@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        //se apenas somarmos uma variavel com outra, teremos concatenação e não soma de dois ou mais valores inteiros
+
+        var numero1 = prompt('Digite o número 1:')
+        var numero2 = prompt('Digite o número 2:')
+
+        document.write('Valores somados: <br>');
+        document.write(numero1, numero2)
+        document.write('<br>Sem o ParseInt, <br>' +numero1 + numero2 );
+
+        var soma = parseInt(numero1) + parseInt(numero2);
+        document.write('<br> Com o ParseInt, </br>' + soma );
+
+
+    </script>
+    
+</head>
+<body>
+    <h1>Variáveis</h1>
+</body>
+</html>
